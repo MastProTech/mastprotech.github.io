@@ -16,4 +16,4 @@ Here are some ideas to get you started:
 
 -->
 🔭 I’m currently working on <a src="https://github.com/MastProTech/Image-Processing">Image Processing</a> and <a src="https://github.com/MastProTech/PredictiveParsing_Iterative">Predictive Parsing</a>
-<br><p align=center><img src="https://komarev.com/ghpvc/?username=MastProTech&style=flat-square&color=green" alt="MastProTech" /></p>
+<br><p align=center><img src="https://komarev.com/ghpvc/?username=MastProTech&style=flat-square&color=brightgreen" alt="MastProTech" /></p>
