@@ -15,4 +15,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 🔭 I’m currently working on <a src="https://github.com/MastProTech/Image-Processing">Image Processing</a> and <a src="https://github.com/MastProTech/PredictiveParsing_Iterative">Predictive Parsing</a>
-<a href="https://komarev.com/ghpvc/?username=MastProTech" alt="MastProTech" />
+<br><p align=center><img src="https://komarev.com/ghpvc/?username=MastProTech" alt="MastProTech" /></p>
