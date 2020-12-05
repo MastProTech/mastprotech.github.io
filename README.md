@@ -18,3 +18,7 @@ I’m currently working on **[Image Processing](https://github.com/MastProTech/I
 ![](https://hit.yhype.halp.im/github/profile?user_id=62762740)
 
 ![](https://komarev.com/ghpvc/?username=MastProTech&style=flat-square&color=brightgreen)
+
+![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=MastProTech&count_private=true&theme=dark&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MastProTech&layout=compact&theme=dark)
