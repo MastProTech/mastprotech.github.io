@@ -14,7 +14,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 -->
-I’m currently working on **[Image Processing](https://github.com/MastProTech/Image-Processing)** and **[Predictive Parsing](https://github.com/MastProTech/PredictiveParsing_Iterative)**
+I’m currently working on **[Image Processing](https://github.com/MastProTech/Image-Processing)**, **[Predictive Parsing](https://github.com/MastProTech/PredictiveParsing_Iterative)** and **[Advent of Code](https://github.com/MastProTech/Advent-of-Code)**
+
 ![](https://hit.yhype.halp.im/github/profile?user_id=62762740)
 
 ![](https://komarev.com/ghpvc/?username=MastProTech&style=flat-square&color=brightgreen)
@@ -22,3 +23,5 @@ I’m currently working on **[Image Processing](https://github.com/MastProTech/I
 ![My GitHub Stats](https://github-readme-stats.vercel.app/api?username=MastProTech&count_private=true&theme=dark&show_icons=true)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MastProTech&layout=compact&theme=dark)
+
+Wondering how did these ☝ stats came from? check out this guy's repo... https://github.com/anuraghazra/github-readme-stats
