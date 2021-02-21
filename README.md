@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 I’m currently working on **[Image Processing](https://github.com/MastProTech/Image-Processing)**, **[Predictive Parsing](https://github.com/MastProTech/PredictiveParsing_Iterative)** and **[Advent of Code](https://github.com/MastProTech/Advent-of-Code)**
 
-![](https://hit.yhype.halp.im/github/profile?user_id=62762740)
+![](https://hit.yhype.me/github/profile?user_id=62762740)
 
 ![](https://komarev.com/ghpvc/?username=MastProTech&style=flat-square&color=brightgreen)
 
