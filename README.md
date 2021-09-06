@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 
 -->
-I’m currently working on **[Flask App](https://github.com/MastProTech/FlaskApp) (Private Repository)**
+<!-- I’m currently working on **[Flask App](https://github.com/MastProTech/FlaskApp) (Private Repository)** -->
 
 My personal website is up and running. [Visit here!](https://mastprotech.github.io/MastProTech)
 
