@@ -71,4 +71,20 @@ body {
   text-align: center;
   width: 100%;
 }
+
+.web-presence .flex-container div p a img {
+  max-height: 2vw;
+}
+
+@media (max-width: 930px) {
+  .web-presence .flex-container div p a img {
+    max-height: 2.5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .web-presence .flex-container div p a img {
+    max-height: 3vw;
+  }
+}
 /*# sourceMappingURL=main.css.map */

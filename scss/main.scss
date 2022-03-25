@@ -57,9 +57,22 @@ body {
   }
   .flex-container {
     display: flex;
-    div {
+    & div {
       text-align: center;
       width: 100%;
+      & p a img {
+        max-height: 2vw;
+        @media (max-width: 930px) {
+          & {
+            max-height: 2.5vw;
+          }
+        }
+        @media (max-width: 480px) {
+          & {
+            max-height: 3vw;
+          }
+        }
+      }
     }
   }
 }
