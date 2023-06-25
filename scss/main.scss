@@ -1,39 +1,74 @@
-$primary-color: #690ff2;
-$secondary-color: #ffffff;
-// $enable-shadows: true;
+$primary-color: black;
+$secondary-color: white;
 
 nav {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
   font-weight: 600 !important;
-  background-color: $primary-color;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
   border-bottom: 1px solid #404040;
   box-shadow: 0px 3px 3px #404040;
+  margin-top: 5px;
+  border-radius: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+
+  & .navbar-brand {
+    color: $secondary-color !important;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    &:hover {
+      color: $secondary-color !important;
+    }
+  }
+}
+
+.nav-link {
+  color: white;
+
+  &:hover {
+    transition-duration: 500ms;
+    transform: scale(1.1);
+  }
 }
 
 .navbar:hover {
   box-shadow: 0px 3px 10px #404040;
-  height: 60px;
-  transition-duration: 100ms;
-  transform: scaleY(1.1);
+  transition-duration: 300ms;
+
 }
 
-body {
+.body {
   background-color: $secondary-color;
 }
 
+.dark-mode {
+  background-color: #1b1b1b;
+  color: $secondary-color;
+}
+
+
 .profile {
-  text-align: center;
+  display: flex;
+  justify-content: center;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+
   &-img {
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     border-radius: 50%;
   }
+}
+
+.profile-title {
+  text-align: center;
 }
 
 .mail-link {
   color: inherit;
   text-decoration: none;
+
   &:hover {
     color: lightslategray;
     text-decoration: none;
@@ -43,6 +78,7 @@ body {
 .flex-container {
   display: flex;
   flex-basis: auto;
+
   & div {
     width: 100%;
     flex-grow: 3 1 500px;
@@ -55,18 +91,23 @@ body {
     margin-bottom: 20pt;
     margin-top: 100pt;
   }
+
   .flex-container {
     display: flex;
+
     & div {
       text-align: center;
       width: 100%;
+
       & p a img {
         max-height: 2vw;
+
         @media (max-width: 930px) {
           & {
             max-height: 2.5vw;
           }
         }
+
         @media (max-width: 480px) {
           & {
             max-height: 3vw;
