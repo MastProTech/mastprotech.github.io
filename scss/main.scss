@@ -80,7 +80,6 @@ nav {
   flex-basis: auto;
 
   & div {
-    width: 100%;
     flex-grow: 3 1 500px;
   }
 }
@@ -91,13 +90,47 @@ nav {
     margin-bottom: 20pt;
     margin-top: 100pt;
   }
+  &-btn {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    text-align: center;
+    border-radius: 25%;
+    padding: 0;
+    margin-right: 0.3rem;
+    margin-left: 0.3rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+    &:hover {
+      box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.38);
+    }
+    &:active {
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.38);
+    }
+    &:focus {
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.38);
+    }
+    & svg, img {
+      height: 50px;
+      max-height: 50px;
+      max-width: 50px;
+      margin: auto;
+      
+    }
+  }
+
+  &-link {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+  }
 
   .flex-container {
     display: flex;
 
     & div {
       text-align: center;
-      width: 100%;
 
       & p a img {
         max-height: 2vw;

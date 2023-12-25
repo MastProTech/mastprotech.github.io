@@ -68,7 +68,6 @@ nav .navbar-brand:hover {
   flex-basis: auto;
 }
 .flex-container div {
-  width: 100%;
   flex-grow: 3 1 500px;
 }
 
@@ -77,12 +76,44 @@ nav .navbar-brand:hover {
   margin-bottom: 20pt;
   margin-top: 100pt;
 }
+.web-presence-btn {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  text-align: center;
+  border-radius: 25%;
+  padding: 0;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  transition-duration: 150ms;
+  transition-timing-function: ease-in-out;
+}
+.web-presence-btn:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.38);
+}
+.web-presence-btn:active {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.38);
+}
+.web-presence-btn:focus {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.38);
+}
+.web-presence-btn svg, .web-presence-btn img {
+  height: 50px;
+  max-height: 50px;
+  max-width: 50px;
+  margin: auto;
+}
+.web-presence-link {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
 .web-presence .flex-container {
   display: flex;
 }
 .web-presence .flex-container div {
   text-align: center;
-  width: 100%;
 }
 .web-presence .flex-container div p a img {
   max-height: 2vw;
